@@ -1,0 +1,11 @@
+#turn Rewrite Engine On
+RewriteEngine On
+
+#hide .php from files
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ $1.php
+
+
+
+

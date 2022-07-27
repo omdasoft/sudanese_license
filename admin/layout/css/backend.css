@@ -1,0 +1,199 @@
+/* bootstrap override*/
+.navbar{
+	background-color:#1c4598;
+	margin-bottom:10px;
+}
+.navbar a{
+	color:#fff;
+	font-size:16px;
+	transition:all 0.4s ease-in-out;
+	-webkit-transition:all 0.4s ease-in-out;
+	-moz-transition:all 0.4s ease-in-out;
+}
+.nav > li > a:focus, 
+.nav > li > a:hover{
+	text-decoration: none;
+	background-color: #181e3f;
+	
+}
+.header .nic-logo img{
+	float:left;
+}
+.nav >li:hover .fa{
+	
+	color:#13a3db;
+}
+.navbar-brand {
+    float: right;
+    height: 50px;
+    padding: 15px 40px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.nav .open > a,
+.nav .open > a:focus, 
+.nav .open > a:hover{
+	background-color: #181e3f;
+}
+.navbar > .container .navbar-brand,
+ .navbar > .container-fluid .navbar-brand {
+  margin-left:0;	
+}
+.dropdown-menu {
+    background-color:#181e3f;
+    min-width: 180PX;
+    padding: 0;
+    font-size: 1em;
+    border: none;
+    border-radius: 0;
+	text-align:right;
+    
+}
+.navbar-inverse .navbar-nav > .open > a, 
+.navbar-inverse .navbar-nav > .open > a:focus,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.dropdown-menu
+{
+        background-color:#181e3f;
+}
+.dropdown-menu >li>a:hover,
+.dropdown-menu >li>a:focus{
+    color: #fff;
+    background-color: #1894bd;
+    padding-right: 20px;
+}
+.dropdown-menu >li>a{
+    color: #fff;
+    padding: 10px 15px;
+    -webkit-transition:padding 0.5s ease-in-out;
+	-moz-transition:padding 0.5s ease-in-out;
+	transition:padding 0.5s ease-in-out;
+}
+.header{
+	margin:15px 0;
+}
+.header .slco-logo{
+	float:right;
+}
+.header .title h1{
+	color:#0f6398;
+}
+.header .title h4{
+	color :#3498db;
+}
+.content{
+	min-height:350px;
+	border:1px solid #ddd;
+	margin-top:0;
+	
+}
+
+.footer{
+	width:100%;
+	height:35px;
+	background-color:#1c4598;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+}
+.footer h5{
+	color:#fff;
+	text-align:center;
+	line-height:35px;
+	
+}
+/*start login form page style*/
+.login{
+	direction:ltr;
+	margin:40px auto;
+}
+.login-form .input-group{
+	
+	margin-bottom:10px;
+}
+.login-form .show-pass{
+	position:absolute;
+	top:10px;
+	right:18px;
+	z-index:999;
+	font-size:15px;
+}
+.login-img img{
+	width:80px;
+	height:80px;
+	float:right;
+	margin-top:40px;
+	margin-right:-26px;
+}
+/*end login form style*/
+/*start of main blocks style*/
+.main-blocks{
+	margin:50px;	
+}
+.main-blocks .block{
+	background:#eee;
+	min-height:150px;
+	text-align:center;
+	border-radius:10px;	
+	padding-top:30px;
+	cursor:pointer;
+}
+.main-blocks .block span{
+	font-weight:bold;
+	font-size:20px;
+	color:#c83a14;
+}
+/*end main block style*/
+/*start manage admin page*/
+.manage_admin{
+	margin:5% 35%;
+}
+.manage_admin h2{
+	margin-bottom:15px;
+}
+/* new center style*/
+.add_center{
+	margin:40px;
+	background:#ecf0f1;
+	padding:10px;
+}
+.add_center .label{
+	color:#333;
+	font-size:16px;
+}
+
+.add_center table{
+	width:100%;
+}
+.add_center .form-control{
+	font-size:18px;
+}
+/*end new center style*/
+/*modal style*/
+
+.modal-content{
+	width:950px;
+}
+.modal-dialog{
+    overflow-y: initial !important
+}
+.modal-body{
+    max-height: 500px;
+    overflow-y: auto;
+}
+th{
+	background:#333;
+	text-align:center;
+	padding:4px;
+	color:#fff;
+	
+}
+td{
+	padding:3px;
+}
+.last_news_table{
+	width:100%;
+}
+/*end modal style*/
+/*end manage admin page*/
+/* end bootstrap override */
