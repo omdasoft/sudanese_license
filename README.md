@@ -1,13 +1,10 @@
-# sudanese_license
-> Sudanese License for computer operating website 
-
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Status](#status)
 
 ## General info
-classified ads website with users and admin dashboard 
+Sudanese License for computer operating website 
 ## Technologies
 * php
 * ajax
