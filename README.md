@@ -9,11 +9,11 @@
 ## General info
 classified ads website with users and admin dashboard 
 ## Technologies
-* laravel 5.4.36
+* php
 * ajax
 * MySql
 * bootstrap 3
 * css3 
 
 ## Status
-Project is: _in progress
+Project is: completed
